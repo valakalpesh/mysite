@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kalpesh Vala | Personal Website</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <header class="bg-gray-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Kalpesh Vala</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#profile" class="hover:text-gray-400">Profile</a></li>
+                    <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile" class="container mx-auto p-6 mt-6">
+        <h2 class="text-4xl font-semibold mb-4">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <img src="profile-pic.jpg" alt="Profile Picture" class="rounded-full w-32 h-32 mb-4 md:mb-0">
+            <p class="ml-6">
+                Hi, I'm Kalpesh Vala, a passionate developer focusing on software development, web development, and app development.
+                Currently, I'm learning backend development using JavaScript, Java, and exploring technologies like Kubernetes and ML.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-200 p-6 mt-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-semibold mb-4">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h3 class="text-2xl font-semibold">Project 1</h3>
+                    <p class="mt-2">A brief description of your project. Add more details here.</p>
+                    <a href="https://github.com/project1" class="text-blue-500 mt-2 block">View on GitHub</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h3 class="text-2xl font-semibold">Project 2</h3>
+                    <p class="mt-2">A brief description of your project. Add more details here.</p>
+                    <a href="https://github.com/project2" class="text-blue-500 mt-2 block">View on GitHub</a>
+                </div>
+
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto p-6 mt-8">
+        <h2 class="text-4xl font-semibold mb-4">Contact Me</h2>
+        <form action="mailto:kalpeshvala@example.com" method="POST" enctype="text/plain" class="flex flex-col space-y-4">
+            <input type="text" name="name" placeholder="Your Name" class="p-2 border border-gray-300 rounded">
+            <input type="email" name="email" placeholder="Your Email" class="p-2 border border-gray-300 rounded">
+            <textarea name="message" placeholder="Your Message" class="p-2 border border-gray-300 rounded"></textarea>
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Kalpesh Vala. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
