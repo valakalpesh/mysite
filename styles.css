@@ -1,0 +1,11 @@
+.bg-blue-100 {
+    background-color: #ebf8ff; /* Light blue background */
+}
+
+.text-blue-600 {
+    color: #2b6cb0; /* Darker blue for text */
+}
+
+.text-lg {
+    font-size: 1.125rem; /* Slightly larger font size for better readability */
+}
